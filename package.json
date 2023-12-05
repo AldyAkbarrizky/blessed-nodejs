@@ -1,0 +1,36 @@
+{
+  "name": "blessed-nodejs",
+  "version": "0.0.1",
+  "description": "Aplikasi ini ditujukan untuk mempelajari segala hal terkait Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldyAkbarrizky/blessed-nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Aldy Akbarrizky",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AldyAkbarrizky/blessed-nodejs/issues"
+  },
+  "homepage": "https://github.com/AldyAkbarrizky/blessed-nodejs#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "exceljs": "^4.4.0",
+    "formidable": "^3.5.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.7",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
